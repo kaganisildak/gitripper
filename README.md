@@ -35,7 +35,7 @@ GitHub Repository Ripper is a powerful Python script that allows you to efficien
 Basic usage:
 
 ```
-python github_repo_ripper.py <username> <all|starred> [options]
+python rip.py <username> <all|starred> [options]
 ```
 
 ### Command-line Options
@@ -52,17 +52,17 @@ python github_repo_ripper.py <username> <all|starred> [options]
 
 1. Clone all repositories of a user:
    ```
-   python github_repo_ripper.py username all
+   python rip.py username all
    ```
 
 2. Clone starred repositories with a specific clone depth:
    ```
-   python github_repo_ripper.py username starred --depth 1
+   python rip.py username starred --depth 1
    ```
 
 3. Clone all repositories with sync mode and LFS support:
    ```
-   python github_repo_ripper.py username all --sync --lfs
+   python rip.py username all --sync --lfs
    ```
 
 
